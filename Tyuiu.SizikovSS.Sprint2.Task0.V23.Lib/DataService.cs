@@ -8,7 +8,7 @@ using tyuiu.cources.programming.interfaces.Sprint2;
 
 namespace Tyuiu.SizikovSS.Sprint2.Task0.V23.Lib
 {
-    public class DataService : ISprint2Task0V22
+    public class DataService : ISprint2Task0V23
     {
         public bool[] GetCompareOperations(int x, int y)
         {
