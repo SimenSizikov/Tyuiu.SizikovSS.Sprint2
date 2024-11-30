@@ -9,11 +9,11 @@ public class DataServiceTest
     public void TestMethod()
     {
         DataService ds = new();
-        int x = 3105, y = 77;
+        int x = 105, y = 795;
         bool[] res = new bool[6];
         res = ds.GetCompareOperations(x, y);
 
-        bool[] wait = new bool[6] { false, true, true, true, true, false };
+        bool[] wait = new bool[6] { true, false, true, true, false, true };
         CollectionAssert.AreEqual(wait, res);
     }
 }
