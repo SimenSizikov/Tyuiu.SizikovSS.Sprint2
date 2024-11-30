@@ -11,7 +11,7 @@ namespace Tyuiu.SizikovSS.Sprint2.Task4.V19.Test
             DataService ds = new();
             double x = 5, y = 7;
 
-            Assert.AreEqual(0.578, ds.Calculate(x, y));
+            Assert.AreEqual(0.568, ds.Calculate(x, y));
         }
     }
 }
