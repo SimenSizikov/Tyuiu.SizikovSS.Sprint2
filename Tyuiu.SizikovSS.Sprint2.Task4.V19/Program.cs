@@ -21,7 +21,6 @@ namespace Tyuiu.SizikovSS.Sprint2.Task4.V19
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-
             Console.WriteLine(ds.Calculate(x,y));
 
             Console.ReadLine();
