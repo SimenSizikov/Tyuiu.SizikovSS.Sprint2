@@ -6,7 +6,7 @@ namespace Tyuiu.SizikovSS.Sprint2.Task6.V15.Lib
     {
         public string FindDayName(int k)
         {
-            int res = (k + 1) % 7;
+            int res = (k) % 7;
 
             switch (res)
             {
